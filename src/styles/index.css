@@ -10,3 +10,25 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.ocultar{
+    visibility: hidden;
+}
+
+li:hover *{
+    visibility: visible;
+}
+
+input.list-group-item:focus {
+    outline: none;
+}
+
+.icon-button {
+    border: none;
+    background-color: none;
+    padding: 0;
+}
+
+span {
+    font-size: 12px;
+}
